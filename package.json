@@ -1,0 +1,27 @@
+{
+  "name": "generator-sitecore",
+  "version": "1.0.0",
+  "description": "Yeoman Generator for Sitecore",
+  "keywords": [
+    "yeoman-generator",
+    "generator",
+    "boilerplate",
+    "yeoman",
+    "sitecore"
+  ],
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devert/generator-sitecore.git"
+  },
+  "author": {
+    "name": "Dennis Evert",
+    "email": "dennisevert@gmail.com",
+    "url": "http://dennisevert.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devert/generator-sitecore/issues"
+  },
+  "homepage": "https://github.com/devert/generator-sitecore#readme"
+}
