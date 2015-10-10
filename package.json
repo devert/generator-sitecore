@@ -23,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/devert/generator-sitecore/issues"
   },
-  "homepage": "https://github.com/devert/generator-sitecore#readme"
+  "homepage": "https://github.com/devert/generator-sitecore#readme",
+  "devDependencies": {
+    "chalk": "^1.1.0",
+    "gulp": "^3.9.0"
+  },
+  "dependencies": {
+    "yosay": "^1.0.4"
+  }
 }
