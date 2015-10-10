@@ -3,7 +3,7 @@
     semi: [2, "always"]
     curly: 2
     quotes: [2, "single"]
-    strict: 2
+    strict: [2, "global"]
     eol-last: 0
     no-underscore-dangle: 0
     handle-callback-err: 0
