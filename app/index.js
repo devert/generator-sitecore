@@ -17,7 +17,7 @@ module.exports = generators.Base.extend({
     askFor: function () {
       // var done = this.async();
 
-      this.log(yosay('Let\'s create a ' + chalk.red('Sitecore') + ' project!'));
+      this.log(yosay('\'Allo \'allo!\rLet\'s create a\r' + chalk.red('Sitecore') + ' project!'));
     }
   }
 
