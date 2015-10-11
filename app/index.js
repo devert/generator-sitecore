@@ -40,17 +40,17 @@ module.exports = generators.Base.extend({
   },
 
   loginToSDN: function () {
-    request
-      .post('https://sdn.sitecore.net/sdn5/misc/loginpage.aspx')
-      .type('form')
-      .send({ ctl09_emailTextBox: this.sdnUsername, ctl09_passwordTextBox: this.sdnPassword })
-      .end(function(err, res){
-       if (res.ok) {
-         console.log('yay got ' + JSON.stringify(res.body));
-       } else {
-         console.log('Oh no! error ' + res.text);
-       }
-     });
+    // request
+    //   .post('https://sdn.sitecore.net/sdn5/misc/loginpage.aspx')
+    //   .type('form')
+    //   .send({ ctl09_emailTextBox: this.sdnUsername, ctl09_passwordTextBox: this.sdnPassword })
+    //   .end(function(err, res){
+    //    if (res.ok) {
+    //      console.log('yay got ' + JSON.stringify(res.body));
+    //    } else {
+    //      console.log('Oh no! error ' + res.text);
+    //    }
+    //  });
   }
 
   //
