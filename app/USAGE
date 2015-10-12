@@ -1,0 +1,7 @@
+Description:
+    Creates a default Sitecore project using a .NET MVC project structure
+
+Example:
+    yo sitecore
+
+    This will create:
